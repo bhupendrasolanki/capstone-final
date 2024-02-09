@@ -14,7 +14,21 @@
 
 The data I used is from Kaggle which Heart Failure Dataset. The dataset description is given below.
 
-![alt text](https://github.com/bhupendrasolanki/udacity-capstone/blob/main/data_desc.PNG)
+| Feature                           | Description                                                                                                                                                 |
+|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Age                               | This feature represents the age of the patient in years. Age can be an important factor in understanding the risk and prognosis of heart failure, as the incidence of heart failure increases with age.                                                                                                                               |
+| Anaemia                           | Anaemia is a condition characterized by a deficiency of red blood cells or hemoglobin in the blood, resulting in reduced oxygen-carrying capacity. This feature indicates whether the patient has anaemia (1 for yes, 0 for no).                                                                                          |
+| High Blood Pressure (Hypertension) | High blood pressure, or hypertension, is a common risk factor for heart failure. This feature indicates whether the patient has high blood pressure (1 for yes, 0 for no).                                                                               |
+| Smoking                           | This feature indicates whether the patient is a smoker (1 for yes, 0 for no). Smoking is a known risk factor for various cardiovascular diseases, including heart failure.                                                                                           |
+| Diabetes                          | Diabetes is a chronic condition characterized by elevated blood sugar levels. This feature indicates whether the patient has diabetes (1 for yes, 0 for no). Diabetes is a significant risk factor for developing heart failure.                                                                                            |
+| Sex                               | This feature represents the gender of the patient (1 for male, 0 for female). Gender differences may play a role in the incidence, presentation, and outcomes of heart failure.                                                                                                       |
+| Serum Creatinine                 | Serum creatinine is a blood test that measures kidney function. Elevated levels of serum creatinine may indicate impaired kidney function, which can be associated with heart failure and other cardiovascular diseases.                                                                                                           |
+| Serum Sodium                     | Serum sodium levels in the blood can indicate hydration status and electrolyte balance. Abnormal serum sodium levels may be associated with heart failure and other cardiovascular conditions.                                                                                  |
+| Ejection Fraction                |Ejection fraction is a measure of the heart's pumping efficiency and is expressed as a percentage. It represents the proportion of blood ejected from the heart with each contraction. A reduced ejection fraction is a hallmark feature of heart failure.                                                 |
+| Platelets                        | Platelets are blood cells responsible for blood clotting. Platelet count can provide information about a patient's overall health status and potential risk factors for cardiovascular diseases.                                  |
+| Serum Creatinine Phosphokinase (CPK) | Serum CPK is an enzyme found predominantly in the heart, brain, and skeletal muscle. Elevated levels of serum CPK may indicate muscle damage, including heart muscle damage, as seen in conditions like heart attacks.       |
+| Diuretic Use                     | This feature indicates whether the patient is on medication for heart failure, specifically diuretics (1 for yes, 0 for no). Diuretics are commonly prescribed to manage fluid retention and symptoms of heart failure.                                             |
+
 
 
 ### Task
