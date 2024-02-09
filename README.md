@@ -2,7 +2,7 @@
 
 # Your Project Title Here
 
-*TODO:* Heart Failure Prediction
+Heart Failure Prediction
 
 ## Project Set Up and Installation
 *OPTIONAL:* If your project has any special installation steps, this is where you should put it. To turn this project into a professional portfolio project, you are encouraged to explain how to set up this project in AzureML.
@@ -10,7 +10,18 @@
 ## Dataset
 
 ### Overview
-*TODO*: Explain about the data you are using and where you got it from.
+#### Project overview:
+
+This project presents an opportunity to apply the knowledge gained from the Nanodegree program to address a compelling problem. The main objective is to create two distinct models: one leveraging Automated Machine Learning (AutoML) and the other a customized model with hyperparameters tuned using HyperDrive. The performance of both models will be compared, and the best-performing model will be deployed.
+
+Key aspects of the project include:
+
+* Utilizing an external dataset within the workspace.
+* Training models using various tools provided by the AzureML framework.
+* Comparing the performance of the AutoML model and the customized model.
+* Deploying the top-performing model as a web service.
+
+
 
 The data I used is from Kaggle which Heart Failure Dataset. The dataset description is given below.
 The "Heart Failure Clinical Data" dataset can be used to train various machine learning (ML) models for predictive analytics tasks. One of the use case is:
