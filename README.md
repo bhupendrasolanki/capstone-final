@@ -13,6 +13,10 @@
 *TODO*: Explain about the data you are using and where you got it from.
 
 The data I used is from Kaggle which Heart Failure Dataset. The dataset description is given below.
+The "Heart Failure Clinical Data" dataset can be used to train various machine learning (ML) models for predictive analytics tasks. One of the use case is:
+
+Binary Classification: This dataset can be used to train binary classification models to predict whether a patient is at risk of death due to heart failure within a certain time frame (e.g., during the follow-up period). Models can be trained to classify patients into two categories: those who are at high risk of death and those who are not.
+
 
 | Feature                           | Description                                                                                                                                                 |
 |-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
