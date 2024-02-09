@@ -1,16 +1,7 @@
 *NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
 
-# Your Project Title Here
-
-Heart Failure Prediction
-
-## Project Set Up and Installation
-*OPTIONAL:* If your project has any special installation steps, this is where you should put it. To turn this project into a professional portfolio project, you are encouraged to explain how to set up this project in AzureML.
-
-## Dataset
-
-### Overview
-#### Project overview:
+# Heart Failure Prediction
+## Project overview:
 
 This project presents an opportunity to apply the knowledge gained from the Nanodegree program to address a compelling problem. The main objective is to create two distinct models: one leveraging Automated Machine Learning (AutoML) and the other a customized model with hyperparameters tuned using HyperDrive. The performance of both models will be compared, and the best-performing model will be deployed.
 
@@ -21,6 +12,16 @@ Key aspects of the project include:
 * Comparing the performance of the AutoML model and the customized model.
 * Deploying the top-performing model as a web service.
 
+#### The challenges in this project which I can think are:
+* Data Quality and Preprocessing: Ensuring dataset cleanliness, handling missing values, outliers, and preprocessing tasks like feature encoding and normalization.
+
+* Model Selection and Tuning: Choosing suitable algorithms, tuning hyperparameters effectively, and balancing model complexity for optimal performance.
+  
+* Model Evaluation and Interpretability: Assessing model performance, selecting appropriate evaluation metrics, and interpreting results comprehensively.
+
+## Dataset
+
+### Overview
 
 
 The data I used is from Kaggle which Heart Failure Dataset. The dataset description is given below.
@@ -47,9 +48,7 @@ Binary Classification: This dataset can be used to train binary classification m
 
 
 ### Task
-*TODO*: Explain the task you are going to be solving with this dataset and the features you will be using for it.
-
-The Task using this dataset is to train one AutoML model and one HyperDrive model and then compare the two model and deploy the best model.
+#### The task involves training two models: one using AutoML and the other using HyperDrive with hyperparameter tuning. After training, the performance of both models is compared to determine the best-performing one. Finally, the selected model is deployed for practical use.
 
 ### Access
 *TODO*: Explain how you are accessing the data in your workspace.
@@ -146,4 +145,9 @@ The parameters used are "C" and "max-iter".  "C" is Inverse of regularization st
 
 Please find the below link for video.
 https://www.youtube.com/watch?v=niPxG80ICyw
+
+## Future Improvements
+* Increase model training time to allow for better convergence and exploration of a wider range of algorithms and hyperparameters in AutoML.
+* Apply AutoML's model interpretability features on larger and more complex datasets to gain deeper insights into feature importance and model behavior, facilitating refined feature engineering and model architecture.
+* Experiment with alternative hyperparameter sampling methods such as Grid or Bayesian sampling on the Logistic Regression model or other machine learning models to identify optimal hyperparameter configurations more efficiently.
 
